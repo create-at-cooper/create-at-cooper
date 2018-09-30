@@ -382,12 +382,15 @@ div.footer > .block:hover {
 }
 .teammate {
 	display: inline-block;
-	width: 33.3%;
+	width: 16vw;
 	font-size: 16pt;
 	margin-bottom: 2em;
+	vertical-align: top;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .teammate img {
-	width: 40%;
+	width: 60%;
 }
 .team p {
 	font-size: 16pt;
@@ -399,7 +402,7 @@ div.footer > .block:hover {
 	}
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 	article.about {
 		background-color: rgba(0, 0, 0, 0.4);
 	}
@@ -413,10 +416,9 @@ div.footer > .block:hover {
 	}
 
 	.teammate {
-		width: 50%;
+		width: 40%;
 	}
 }
-
 @media (max-width: 640px) {
 	h3 {
 		font-size: 20pt;
